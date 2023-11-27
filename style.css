@@ -31,10 +31,16 @@ body {
     width: 25%;
     position: relative;
     transition: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide img{
-    width: 800px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
 }
 
 .manual-nav{
